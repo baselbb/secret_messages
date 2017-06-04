@@ -18,7 +18,7 @@ def clear_screen():
 
 # create a menu for Cipher method and return user choice
 def menu():
-  """ User menu function for different cipher methods. Main function which calls different and output cipher 			methods.
+  """ User menu function for different cipher methods. Main function which calls different and output cipher methods.
 
   This is the main function which asks a user for 
   1. Encrypt or decrypt a message
@@ -34,7 +34,7 @@ def menu():
   Encryption Process:
   User Text > One Time Pad > Chosen Cipher > Ciphered Text Output
 
-  Decrypt Process:
+  Decryption Process:
   Cipher Text > Cipher Method > One Time Pad > Text Output
 
   """
