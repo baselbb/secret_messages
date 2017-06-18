@@ -13,7 +13,7 @@ class AffineCipher(Cipher):
 
     """
 
-    accepted_alpha = [3, 5, 7, 9, 11, 13, 15, 17, 19, 21, 23, 25]
+    accepted_alpha = [3, 5, 7, 9, 11, 15, 17, 19, 21, 23, 25]
     
     def __init__(self, alpha, beta):
         """
