@@ -6,7 +6,7 @@ class UserInput():
         accepted_alpha = [3, 5, 7, 9, 11, 13, 15, 17, 19, 21, 23, 25]
         while True:
             try:
-                alpha = int(input("""Please enter alpha key, should be an odd integer from 3-25 > """))
+                alpha = int(input("""Please enter alpha key, should be an odd integer from 3-25, except 13 > """))
                 if alpha in accepted_alpha:
                     break
                 else:
