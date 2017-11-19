@@ -18,6 +18,7 @@ OneTimePad Cipher is applied to text before it is encrytped again:
   https://en.wikipedia.org/wiki/One-time_pad
 
 # Using Secret Messages
-Main file to run is menu.py
+Main file to run is menu.py.  To start playing secret messages game:
+`python menu.py`
 
 A menu will appear which asks the user for different options to encrypt or decrypt text
